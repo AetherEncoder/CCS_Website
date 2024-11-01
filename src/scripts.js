@@ -38,7 +38,7 @@ function homeChangePic(theme){
         document.getElementById('lanyard').src = 'src/images/mangaTheme/lanyard_announcement.png';
         document.getElementById('tryout').src = 'src/images/mangaTheme/tryout_announcement.png';
         document.getElementById('teacher').src = 'src/images/mangaTheme/teachers_day.png';
-        document.getElementById('logo').src = 'src/images/mangaTheme/CCS_Logo.png';
+        document.getElementById('logo').src = 'src/images/mangaTheme/CCS_logo.png';
         document.getElementById('icon').href = 'src/images/mangaTheme/CCS_logo.png';
     }
 
@@ -59,7 +59,7 @@ function homeChangePic(theme){
     }
 
     else if(theme == "styles" || theme == "space" || theme == "beach"){
-        document.getElementById('logo').src = 'src/images/CCS_Logo.png';
+        document.getElementById('logo').src = 'src/images/CCS_logo.png';
         document.getElementById('icon').href = 'src/images/CCS_logo.png';
         document.getElementById('lanyard').src = 'src/images/lanyard_announcement.png';
         document.getElementById('tryout').src = 'src/images/tryout_announcement.png';
