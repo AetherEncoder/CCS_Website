@@ -1,0 +1,610 @@
+/* General Styling */
+
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #0073e6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(86, 86, 86);
+    margin: 0px;
+}
+
+hr{
+    border: none;
+}
+
+div{
+    float: left;
+}
+
+div.banner{
+    height: 160px;
+    width: 100%;
+    background-color: #0073e6; 
+}
+
+div.banner-container{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 160px;
+    background-image: url('images/CCS_Banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.navigation-bar{
+    height: 50px;
+    width: 100%;
+    background-color: #0059b3;
+}
+
+div.button-navigation{
+    width: 16.66667%;
+    height: 50px;
+}
+
+button.button-navigation{
+    height: 50px;
+    border-radius: 0px;
+    border: 0px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+button.current, button.not-current:hover{
+    background-color: #004992;
+}
+
+button.not-current:active, button.current:active{
+    color: white;
+    background-color: #003870;
+}
+
+button.not-current{
+    background-color: #0059b3;
+}
+
+div.content{
+    width: 100%;
+    background-color: white;
+    
+}
+
+div.back-to-top{
+    width: 100%;
+}
+
+div.back-to-top{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+hr.back-to-top{
+    width: 30%;
+    height: 1px;
+    background-color: rgb(86, 86, 86);
+}
+
+a.back-to-top{
+    color: #004992;
+    text-align: center;
+}
+
+a.anchor{
+    float: left;
+    width: 100%;
+}
+
+div.copyright{
+    width: 100%;
+    background-color: #0073e6;
+    text-align: center;
+}
+
+p.copyright{
+    color: white;
+    font-weight: bold;
+}
+
+hr.copyright{
+    width: 99%;
+    height: 1px;
+    background-color: white;
+}
+
+ul.none{
+    list-style-type: none;
+}
+
+ul.disc{
+    list-style-type: disc;
+}
+
+ul.circle{
+    list-style-type: circle;
+}
+
+ul.square{
+    list-style-type: square;
+}
+
+ol.decimal{
+    list-style-type: decimal;
+}
+
+ol.lower-alpha{
+    list-style-type: lower-alpha;
+}
+
+ol.upper-alpha{
+    list-style-type: upper-alpha;
+}
+
+ol.lower-roman{
+    list-style-type: lower-roman;
+}
+
+ol.upper-roman{
+    list-style-type: upper-roman;
+}
+
+ol.none{
+    list-style-type: none;
+}
+
+div.buttons{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button.buttons{
+    margin: 1px;
+    width: 33%;
+    float: left;
+    height: 50px;
+    border-radius: 0%;
+    border: solid 1px black;
+    font-size: 20px;
+    background-color: #004992;
+    color: white;
+}
+
+button.ccs:hover{
+    background-color: white;
+    color: #004992;
+}
+
+button.silliman:hover{
+    background-color: rgb(146, 12, 18);
+    color: white;
+}
+
+button.beach:hover{
+    background-color: #4CC9FE;
+    color: #F5F4B3;
+}
+
+button.space:hover{
+    background-color: rgb(30, 62, 98);
+    color: rgb(255, 101, 0)
+}
+
+button.egoist:hover{
+    background-color: white; 
+    color: #01429c;
+}
+
+button.manga:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+button.ccs:active{
+    background-color: #004992;
+    color: white;
+}
+
+button.silliman:active{
+    background-color: white;
+    color: rgb(146, 12, 18);
+}
+
+button.beach:active{
+    background-color: #F5F4B3;
+    color: #4CC9FE;
+}
+
+button.space:active{
+    background-color: rgb(255, 101, 0);
+    color: rgb(30, 62, 98);
+}
+
+button.egoist:active{
+    background-color: #01429c;
+    color: white;
+}
+
+button.manga:active{
+    background-color: black;
+    color: white;
+}
+
+/* End of Genenral Styling */
+
+
+
+/* Home Page Styling */
+
+div.background-image{
+    width: 100%;
+    height: 400px;
+    background-image: url('images/Cover_Image.jpg');
+    background-size: cover;
+}
+
+div.left-sidebar{
+    width: 10%;
+    height: 1500px;
+    float:left;
+    background-image: url('images/ViaVeritasVita.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.right-sidebar{
+    width: 10%;
+    height: 1500px;
+    float: left;
+    background-image: url('images/ViaVeritasVita.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.center-bar{
+    width: 80%;
+    
+}
+
+div.ccs-logo-home{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+img.ccs-logo-home{
+    width: 100%;
+}
+
+a.click-here{
+    color: #004992;
+}
+
+h1.home-heading{
+    font-size: 36px;
+    text-align: center;
+}
+
+p.home-paragraph{
+    text-align: center;
+}
+
+hr.home-hr{
+    background-color: rgb(86, 86, 86);
+    width: 90%;
+    height: 1px;
+}
+
+div.news-and-announcements{
+    width: 82%;
+    height: 1%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+div.news-caption{
+    width: 33.3%;
+    text-align: center;
+}
+
+div.news{
+    width: 33%;
+}
+
+img.news-image{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* End of Home Page Styling */
+
+
+
+
+
+
+
+
+
+
+
+/* About Page Styling */
+
+div.main-content{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    width: 90%;
+}
+
+h1.main-heading{
+    font-size: 36px;
+}
+
+div.main-nav-bar{
+    width: 100%;
+}
+
+a.main-nav-link{
+    color: #004992;
+}
+
+div.nav-space{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+hr.main-hr{
+    background-color: rgb(86, 86, 86);
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    float: left;
+}
+
+h2.main-subheading{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+
+p.main-paragraph{
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    width: 100%;
+}
+
+h3.main-subheading{
+    font-size: 24px;
+    text-decoration: underline;
+    float: left;
+    font-weight: normal;
+    width: 100%;
+}
+
+ul.mission-list{
+    float:left;
+    font-size: 20px;    
+    width: 100%;
+}
+
+img.course-banner{
+    float: left;
+}
+
+div.pictures{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+    
+p.pictures{
+    text-align: center;
+    font-weight: bold;
+}
+
+div.picture-caption{
+    float: left;
+    width: 100%;
+}
+
+div.picture-row{
+    width: 100%;
+}
+
+img.sample-pictures{
+    width: 24.7%;
+    height: 200px;
+    float: left;
+    border: 1px solid black;
+}
+
+/* End of About Page Styling */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* College Policies and Guidelines Styling */
+
+ol.college-policies{
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+
+span.big{
+    font-size: larger;
+}
+
+table.grading-system{
+    width: 50%;
+    border: 1px solid rgb(86, 86, 86);
+}
+
+td.grading-system{
+    border: 1px solid rgb(86, 86, 86);
+    text-align: left;
+}
+
+table.awards{
+    border: none;
+    width: 30%;
+}
+
+td.awards{
+    text-decoration: underline;
+}
+
+span.awards{
+    font-weight: bold;
+}
+
+/* End of College Policies and Guidelines Styling */
+
+
+
+/* Faculty and Staff Styling */
+
+img.faculty{
+    width: 100%;
+}
+
+/* End of Faculty and Staff Styling */
+
+
+
+
+
+
+/* Contact Page Styling */
+
+.contact-link{
+    color: #004992;
+    text-decoration: underline;
+}
+
+span.contact-heading{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+ul.contact-paragraph{
+    text-align: justify;
+    font-size: 24px;
+}
+
+div.empty-space{
+    width: 100%;
+    height: 100px;
+}
+
+/* End of Contact Page Styling */
+
+
+
+
+
+
+
+
+/* Developer Information Styling */
+
+img.myface{
+    float: left;
+    width: 100%;
+    border: 1px solid black;
+}
+
+div.myface-container{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 2%;
+}
+
+div.myface{
+    width: 100%;
+}
+
+div.column1{
+    width: 15%;
+}
+
+div.column2{
+    width: 35%;
+}
+
+div.column-half{
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.column-quarter{
+    width:25%;
+}
+
+div.column-third{
+    width: 33%;
+}
+
+a.link{
+    color: #004992;
+    text-decoration: none;
+}
+
+span.bold{
+    font-weight: bold;
+}
+
+div.myface-div{
+    width: 100%;
+    background-color: white;
+}
+
+div.dev{
+    display: none;
+}
+
+button.copyright{
+    background-color: rgb(0, 115, 230);
+    border: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+span.copyright{
+    display: none;
+}
+
+/* End of Developer Information Styling */
+
+
+
+
+
+
